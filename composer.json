@@ -1,0 +1,20 @@
+{
+    "name": "sdavicco/qr-code-generator",
+    "description": "A simple PHP library to generate QR codes without external dependencies",
+    "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SDAVICCO\\QRCode\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SDAVICCO",
+            "email": "sebatian@davicco.com"
+        }
+    ]
+}
